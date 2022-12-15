@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-joi-validation": "^5.0.1",
+    "express-validation": "^3.0.8",
+    "joi": "^17.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "permit-params": "^1.0.3",
+    "sequelize": "https://github.com/healthray-dev/sequelize/tarball/enc-hr-build",
+    "sequelize-auto": "^0.8.8",
+    "sequelize-cli": "^6.4.1",
+    "strong-params": "^1.0.0"
+  },
+  "name": "crash-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "modelGenerator": "node -r ./utils/sequalizeAuto.js",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
